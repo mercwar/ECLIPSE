@@ -29,16 +29,18 @@ Eclipse Gateway v1.0 is a next-generation, high-performance command-line control
 Designed for seamless control and secure state routing, Eclipse combines retro terminal aesthetics with robust backend operations.
 
 ---
-
-## 🚀 Quick Installation
-<div style="text-align: center; margin-bottom: 24px;">
+<div style="text-align: center; margin: 24px 0;">
     <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
     <img 
-        src="images/ss1.png" 
-        alt="Mercwar Constellation - Gateway Access" 
+        src="images/oerm.jpg" 
+        alt="Eclipse Gateway Interface" 
         style="width:100%; height:auto; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.6);"
     />
     </a>
+</div>
+
+## 🚀 Quick Installation
+
 
 #
     
@@ -52,6 +54,15 @@ To install and deploy Eclipse directly on your system via PowerShell, execute th
 irm "https://raw.githubusercontent.com/mercwar/ECLIPSE/main/install.ps1" | iex
 ```
 
+<div style="text-align: center; margin-bottom: 24px;">
+    <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
+    <img 
+        src="images/ss1.png" 
+        alt="Mercwar Constellation - Gateway Access" 
+        style="width:100%; height:auto; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.6);"
+    />
+    </a>
+    
 ---
 
 ## 🛠️ Alternative Deployment & Source Options
