@@ -77,6 +77,7 @@ Once cloned, launch the console utility by running either:
     />
     </a>
 </div>
+
 * `darkcom2.ps1` (PowerShell script)
 * `darkcom2.bat` (Batch execution script)
 
@@ -101,6 +102,7 @@ git clone https://github.com/mercwar/Dark-Com-2
         style="width:100%; height:auto; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.6);"
     />
     </a>
+    
 * **AVIS Protocol Integration:** Native communication routing with AVIS-DATALAKE nodes.
 * **ANSI Terminal UI:** Custom-rendered multi-color banners, live status bars, and interactive arrow/number navigation.
 * **Granular State Handling:** Complete control over Public and Private Application/Session states (Read & Write operations).
