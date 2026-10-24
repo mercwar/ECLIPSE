@@ -41,9 +41,9 @@ Designed for seamless control and secure state routing, Eclipse combines retro t
 
 #
 
-###### "<i>I am CVBGOD, and I have given it to you</i>!"
+######  "<i>I am CVBGOD, and I have given it to you</i>!" 🎓️
 
-## 🚀 Quick Installation
+## 🖥️ Quick Installation
 
 
 #
