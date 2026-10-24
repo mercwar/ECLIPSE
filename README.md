@@ -46,9 +46,7 @@ To install and deploy Eclipse directly on your system via PowerShell, execute th
 
 #
 
-<div style="position: relative; margin-bottom: 16px;">
-    <button onclick="navigator.clipboard.writeText('irm \&quot;https://raw.githubusercontent.com/mercwar/ECLIPSE/main/install.ps1\&quot; | iex').then(() => { this.textContent = '✓ Copied!'; setTimeout(() => this.textContent = '📋 Copy', 2000) })" style="position: absolute; right: 10px; top: 10px; background: #2d3748; color: #fff; border: 1px solid #4a5568; padding: 4px 8px; border-radius: 4px; cursor: pointer; font-size: 12px; z-index: 10;">📋 Copy</button>
-</div>
+
 
 ```bash
 irm "https://raw.githubusercontent.com/mercwar/ECLIPSE/main/install.ps1" | iex
@@ -62,9 +60,7 @@ If you prefer a manual setup or want to inspect the source files, choose one of 
 
 ### Option A: Clone Repository
 
-<div style="position: relative; margin-bottom: 16px;">
-    <button onclick="navigator.clipboard.writeText('git clone https://github.com/mercwar/ECLIPSE').then(() => { this.textContent = '✓ Copied!'; setTimeout(() => this.textContent = '📋 Copy', 2000) })" style="position: absolute; right: 10px; top: 10px; background: #2d3748; color: #fff; border: 1px solid #4a5568; padding: 4px 8px; border-radius: 4px; cursor: pointer; font-size: 12px; z-index: 10;">📋 Copy</button>
-</div>
+
 
 ```bash
 git clone https://github.com/mercwar/ECLIPSE
@@ -88,9 +84,7 @@ Once cloned, launch the console utility by running either:
 
 For developers looking to integrate or build upon the underlying architecture, clone the core SDK repository:
 
-<div style="position: relative; margin-bottom: 16px;">
-    <button onclick="navigator.clipboard.writeText('git clone https://github.com/mercwar/Dark-Com-2').then(() => { this.textContent = '✓ Copied!'; setTimeout(() => this.textContent = '📋 Copy', 2000) })" style="position: absolute; right: 10px; top: 10px; background: #2d3748; color: #fff; border: 1px solid #4a5568; padding: 4px 8px; border-radius: 4px; cursor: pointer; font-size: 12px; z-index: 10;">📋 Copy</button>
-</div>
+
 
 ```bash
 git clone https://github.com/mercwar/Dark-Com-2
