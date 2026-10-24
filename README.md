@@ -32,5 +32,5 @@ A robust command-line control panel and state broker built for the AVIS protocol
 To install and deploy Eclipse on your system, open PowerShell and execute the following command:
 
 ```code
-irm "[https://raw.githubusercontent.com/mercwar/ECLIPSE/main/install.ps1](https://raw.githubusercontent.com/mercwar/ECLIPSE/main/install.ps1)" | iex
+irm "https://raw.githubusercontent.com/mercwar/ECLIPSE/main/install.ps1" | iex
 ```
