@@ -33,27 +33,27 @@ Write-Host ""
 $FilesToDownload = @(
     @{
         Name     = "darkcom2.exe"
-        Url      = "https://raw.githubusercontent.com/mercwar/Dark-Com-2/refs/heads/main/darkcom2.exe"
+        Url      = "https://raw.githubusercontent.com/mercwar/ECLIPSE/refs/heads/main/darkcom2.exe"
         Required = $true
     },
     @{
         Name     = "DarkComHeadless.dll"
-        Url      = "https://raw.githubusercontent.com/mercwar/Dark-Com-2/refs/heads/main/DarkComHeadless.dll"
+        Url      = "https://raw.githubusercontent.com/mercwar/ECLIPSE/refs/heads/main/DarkComHeadless.dll"
         Required = $true
     },
     @{
         Name     = "WebView2Loader.dll"
-        Url      = "https://raw.githubusercontent.com/mercwar/Dark-Com-2/refs/heads/main/WebView2Loader.dll"
+        Url      = "https://raw.githubusercontent.com/mercwar/ECLIPSE/refs/heads/main/WebView2Loader.dll"
         Required = $true
     },
     @{
         Name     = "darkcom2.ps1"
-        Url      = "https://raw.githubusercontent.com/mercwar/Dark-Com-2/refs/heads/main/darkcom2.ps1"
+        Url      = "https://raw.githubusercontent.com/mercwar/ECLIPSE/refs/heads/main/darkcom2.ps1"
         Required = $true
     },
     @{
         Name     = "darkcom2.bat"
-        Url      = "https://raw.githubusercontent.com/mercwar/Dark-Com-2/refs/heads/main/darkcom2.bat"
+        Url      = "https://raw.githubusercontent.com/mercwar/ECLIPSE/refs/heads/main/darkcom2.bat"
         Required = $true
     }
 )
