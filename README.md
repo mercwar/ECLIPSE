@@ -15,7 +15,7 @@
 <div style="text-align: center; margin: 24px 0;">
     <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
     <img 
-        src="images/eclipse.png" 
+        src="images/bb.jpg" 
         alt="Eclipse Gateway Interface" 
         style="width:100%; height:auto; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.6);"
     />
@@ -68,6 +68,15 @@ irm "https://raw.githubusercontent.com/mercwar/ECLIPSE/main/install.ps1" | iex
 ## 🛠️ Alternative Deployment & Source Options
 
 If you prefer a manual setup or want to inspect the source files, choose one of the options below:
+<div style="text-align: center; margin: 24px 0;">
+    <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
+    <img 
+        src="images/eclipse.png" 
+        alt="Eclipse Gateway Interface" 
+        style="width:100%; height:auto; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.6);"
+    />
+    </a>
+</div>
 
 ### Option A: Clone Repository
 
