@@ -156,7 +156,7 @@ git clone https://github.com/mercwar/Dark-Com-2
 Locate installation
 
 ```batch
-          Name     = "darkcom2.exe"
+        Name     = "darkcom2.exe"
         Url      = "https://raw.githubusercontent.com/mercwar/Dark-Com-2/refs/heads/main/darkcom2.exe"
         Required = $true
 
