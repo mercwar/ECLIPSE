@@ -10,7 +10,7 @@
 
 ---
 
-# ✨ ECLIPSE bY Joe Tron 💎🔥
+# ✨ ECLIPSE bY Joe Tron
 
 <div style="text-align: center; margin: 24px 0;">
     <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
