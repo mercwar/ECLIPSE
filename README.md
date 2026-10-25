@@ -119,9 +119,9 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./install.ps1
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./darkcom2.ps1
 ```
 
-From Your command line:
+From Eclipse from your command line:
 ```bash
-./darkcom2.bat
+C:\Users\<user_name>\Documents\DarkComEngine> darkcom2.bat
 ```
 
 For developers looking to integrate or build upon the underlying architecture, clone the core SDK repository:
