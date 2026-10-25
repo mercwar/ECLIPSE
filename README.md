@@ -109,6 +109,9 @@ Once cloned, launch the console utility by running either:
 Applications: Run ./darkcom2.ps1 with script access.
 
 * `darkcom2.ps1` (DarkCom2)
+  
+  `and/or`
+  
 * `darkcom2.bat` (Eclipse)
 
 ```bash
