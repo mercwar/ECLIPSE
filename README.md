@@ -107,12 +107,18 @@ Once cloned, launch the console utility by running either:
 ### Option B: Core SDK
 
 Applications: Run ./darkcom2.ps1 with script access.
+  
+* `darkcom2.bat` (Eclipse)
+  
+  `and/or`
 
 * `darkcom2.ps1` (DarkCom2)
   
-  `and/or`
-  
-* `darkcom2.bat` (Eclipse)
+Double click darkcom2.bat or run Eclipse from your command line:
+
+```bash
+C:\Users\<user_name>\Documents\DarkComEngine> darkcom2.bat
+```
 
 ```bash
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./install.ps1
@@ -122,10 +128,6 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./install.ps1
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./darkcom2.ps1
 ```
 
-Double click darkcom2.bat or run Eclipse from your command line:
-```bash
-C:\Users\<user_name>\Documents\DarkComEngine> darkcom2.bat
-```
 
 For developers looking to integrate or build upon the underlying architecture, clone the core SDK repository:
 
