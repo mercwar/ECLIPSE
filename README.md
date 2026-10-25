@@ -112,7 +112,7 @@ Applications: double click the bat file, or run darkcom2.ps1 with script access.
 * `darkcom2.bat` (Eclipse)
 
 ```bash
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\install.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./install.ps1
 ```
 
 ```bash
