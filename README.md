@@ -204,6 +204,9 @@ Base URL: http://mercwar01.byethost3.com/darkcom2/index.php
 ######
 
 ```bash
+
+This API does not yet apply to Eclipse for console
+
 --- 1. CORE WRITE COMBINATIONS (POST method, no pagination) ---
 1.1. Application Public Write:
      POST /api.php?application=true&public=true&write=true
