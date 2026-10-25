@@ -196,12 +196,14 @@ This API is Displayed only here in this read me so that you can read the current
 #
 
 ECLIPSE API - COMPLETE URI & COMBINATION REFERENCE MAP
-Base URL: http://yourdomain.com/api.php
+
+Base URL: http://mercwar01.byethost3.com/darkcom2/index.php
 
 #
 
 ######
 
+```bash
 --- 1. CORE WRITE COMBINATIONS (POST method, no pagination) ---
 1.1. Application Public Write:
      POST /api.php?application=true&public=true&write=true
@@ -253,7 +255,8 @@ Base URL: http://yourdomain.com/api.php
 
 4.2. Write to Specific External Session (Private):
      POST /api.php?application=false&public=false&write=true&session_id=abc123xyz
-     
+```
+
 ---
 
 ## 📋 Features & Capabilities
