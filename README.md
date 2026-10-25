@@ -205,7 +205,8 @@ Base URL: http://mercwar01.byethost3.com/darkcom2/index.php
 
 ```bash
 
-This API does not yet apply to Eclipse for console
+This API does not yet apply to Eclipse for console.
+Use the key code that I gave to you for darkcom2 Eclipse
 
 --- 1. CORE WRITE COMBINATIONS (POST method, no pagination) ---
 1.1. Application Public Write:
