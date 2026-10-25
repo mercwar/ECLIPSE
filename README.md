@@ -102,10 +102,22 @@ Once cloned, launch the console utility by running either:
     </a>
 </div>
 
+### Option B: End User Redist for open source Core SDK
+
+All Users:
+```bash
+irm "https://raw.githubusercontent.com/mercwar/ECLIPSE/main/install.ps1" | iex
+```
+
+  `or`
+  
+```bash
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./install.ps1
+```
+Locate the Headless application files dll/exe 
 
 
-### Option B: Core SDK
-
+Any User:
 Applications: Run ./darkcom2.ps1 with script access.
   
 * `darkcom2.bat` (Eclipse)
@@ -120,23 +132,128 @@ Double click darkcom2.bat or run Eclipse from your command line:
 C:\Users\<user_name>\Documents\DarkComEngine> darkcom2.bat
 ```
 
-```bash
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./install.ps1
-```
 
 ```bash
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./darkcom2.ps1
 ```
 
+Any developer:
 
-For developers looking to integrate or build upon the underlying architecture, clone the core SDK repository:
-
-
+- Integrate or build upon the underlying architecture
+- Use the AVIS-DL to deploy AI
+- Clone the core SDK repository
+- Use the vast amount of php api across the mercwar Constellation within your own Javascript application 
+- FREE Hosting features and API only server limits apply
+  
+```bash
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./install.ps1
+```
 
 ```bash
 git clone https://github.com/mercwar/Dark-Com-2
 ```
 
+Locate installation
+
+```batch
+          Name     = "darkcom2.exe"
+        Url      = "https://raw.githubusercontent.com/mercwar/Dark-Com-2/refs/heads/main/darkcom2.exe"
+        Required = $true
+
+        Name     = "DarkComHeadless.dll"
+        Url      = "https://raw.githubusercontent.com/mercwar/Dark-Com-2/refs/heads/main/DarkComHeadless.dll"
+        Required = $true
+
+        Name     = "WebView2Loader.dll"
+        Url      = "https://raw.githubusercontent.com/mercwar/Dark-Com-2/refs/heads/main/WebView2Loader.dll"
+        Required = $true
+ 
+        Name     = "darkcom2.bat"
+        Url      = "https://raw.githubusercontent.com/mercwar/Dark-Com-2/refs/heads/main/darkcom2.bat"
+        Required = $true
+        
+```
+
+To use the Headless, darkcom2.exe will run with the same basic functionality as cURL. This is the file CVBGOD has created
+to operate the Microsoft WebView2 as Headless internet surf device, the same way you do with cURL. 
+
+darkcom2 will call for you and respond with a typical json response , it will take a url &= and post {[]}
+
+Below is the key code for darkcom2.exe: 
+
+```bash
+c:\path\to\file> darkcom2.exe "https://mercwar01.byethost3.com/darkcom2/index.php?public=false&application=false&write=false" -X POST/GET -d {[JSON]} -v
+```
+
+The Eclipse PHP API is a separate section of the reference.
+
+Below is the code for the Eclipse application, most of the URI is the same.
+
+This API is Displayed only here in this read me so that you can read the current version.
+
+######
+
+#
+
+ECLIPSE API - COMPLETE URI & COMBINATION REFERENCE MAP
+Base URL: http://yourdomain.com/api.php
+
+#
+
+######
+
+--- 1. CORE WRITE COMBINATIONS (POST method, no pagination) ---
+1.1. Application Public Write:
+     POST /api.php?application=true&public=true&write=true
+
+1.2. Application Private Write:
+     POST /api.php?application=true&public=false&write=true
+
+1.3. Session Public Write:
+     POST /api.php?application=false&public=true&write=true
+
+1.4. Session Private Write:
+     POST /api.php?application=false&public=false&write=true
+
+
+--- 2. CORE READ / LISTING COMBINATIONS (GET method, paginated) ---
+2.1. Application Public Read (Default Page 1, 10 items):
+     GET /api.php?application=true&public=true
+
+2.2. Application Public Read (Custom Pagination):
+     GET /api.php?application=true&public=true&page=2&per_page=25
+
+2.3. Application Private Read:
+     GET /api.php?application=true&public=false
+
+2.4. Session Public Read:
+     GET /api.php?application=false&public=true
+
+2.5. Session Private Read:
+     GET /api.php?application=false&public=false
+
+
+--- 3. SPECIFIC NODE INSPECTION COMBINATIONS (GET method, by path) ---
+3.1. Inspect Application Public Snapshot:
+     GET /api.php?application=true&public=true&path=2026/Oct/Sat/20-21-15
+
+3.2. Inspect Application Private Snapshot:
+     GET /api.php?application=true&public=false&path=2026/Oct/Sat/20-21-15
+
+3.3. Inspect Session Public Snapshot:
+     GET /api.php?application=false&public=true&path=2026/Oct/Sat/20-21-15
+
+3.4. Inspect Session Private Snapshot:
+     GET /api.php?application=false&public=false&path=2026/Oct/Sat/20-21-15
+
+
+--- 4. ADVANCED SESSION-OVERRIDE COMBINATIONS ---
+4.1. Read Specific External Session (Public):
+     GET /api.php?application=false&public=true&session_id=abc123xyz
+
+4.2. Write to Specific External Session (Private):
+     POST /api.php?application=false&public=false&write=true&session_id=abc123xyz
+     
 ---
 
 ## 📋 Features & Capabilities
