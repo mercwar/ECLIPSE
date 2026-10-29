@@ -48,11 +48,14 @@ Designed for seamless control and secure state routing, Eclipse combines retro t
 
 #
     
-To install and deploy Eclipse directly on your system via PowerShell, execute the following command:
+To install and deploy Eclipse for dc2url :
 
 #
+```bash
+irm "https://raw.githubusercontent.com/mercwar/dc2url/main/install.ps1" | iex
+```
 
-
+To display the demo in this readme :
 
 ```bash
 irm "https://raw.githubusercontent.com/mercwar/ECLIPSE/main/install.ps1" | iex
